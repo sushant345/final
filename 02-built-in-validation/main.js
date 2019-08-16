@@ -4,7 +4,7 @@ let header = document.querySelector('header');
 let section = document.querySelector('section');
 let footer = document.querySelector('footer');
 //step 3 Store the url of a json file in a variables
-let requestURL = 'http://github.com/sushant345/final/blob/master/02-built-in-validation/main.json';
+let requestURL = 'https://github.com/sushant345/final/tree/master/02-built-in-validation/main.json';
 //step 4 Create a new XHR object
 let request = new XMLHttpRequest();
 //step 5 open a new request using the request method
