@@ -1,0 +1,37 @@
+//JSON Document
+{
+  "title" :"Weird Deals!!",
+  "products" : [
+    {
+      "name" : "A home mushroom farm",
+      "price" : "$22.85",
+      "description": "Now you can grow your own fungus right at home—and not in between your toes!",
+      "benefits" : [
+        "OWN grown mushroom", "Chemical Free!!", "Tasty"
+      ],
+      "image" : "musroom.jpg"
+    },
+
+    {
+      "name" : "A cat butt tissue holder",
+      "price" : "$34.94",
+      "description": "This seems like the nicest thing to be plucked from a cat’s rear ",
+      "benefits" : [
+        "who doesn’t like to be stared down with peering", "they need to blow their nose", "refillable??!!"
+      ],
+      "image" : "cat.jpg"
+    },
+
+    {
+      "name" : "A dog dryer",
+      "price" : "$39.95",
+      "description": "Having a dog dry itself off all over your living room post-bath is rarely ideal",
+      "benefits" : [
+        "bizarre blow-dryer suit ", "keep your pup from dripping all over the house", "Easyb to Use"
+      ],
+      "image" : "dog-dryer.jpg"
+    }
+
+
+  ]
+}
