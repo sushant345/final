@@ -4,7 +4,7 @@ let header = document.querySelector('header');
 let section = document.querySelector('section');
 let footer = document.querySelector('footer');
 //step 3 Store the url of a json file in a variables
-let requestURL = 'https://github.com/sushant345/final/tree/master/02-built-in-validation/main.json';
+let requestURL = 'https://sushant345.github.io/final/main.json';
 //step 4 Create a new XHR object
 let request = new XMLHttpRequest();
 //step 5 open a new request using the request method
@@ -23,7 +23,7 @@ request.onload = function(){
 function topheader(jsonObj) {
 
   var headerH1 = document.createElement('h1');
-  headerH1.textContent = jsonObj['titile'];
+  headerH1.textContent = jsonObj['title'];
   header.appendChild(headerH1);
 
 }
@@ -44,7 +44,7 @@ function products(jsonObj){
     let ul = document.createElement('ul');
 
     //set the text textContent
-    img.setAttribute('src', 'http://github.com/sushant345/final/tree/master/02-built-in-validation/images' + products[i].image);
+    img.setAttribute('src', 'https://sushant345.github.io/final/images' + products[i].image);
 
     img.setAttribute('alt', products[i].name);
     h2.textContent = products[i].name;
